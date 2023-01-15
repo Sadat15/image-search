@@ -1,0 +1,18 @@
+.image-list {
+  columns: 4 200px;
+  column-gap: 20x;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+img:hover {
+  transition: transform .4s;
+  transform: scale(1.1);
+}
