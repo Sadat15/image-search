@@ -11,8 +11,7 @@ const searchImages = async (term) => {
     },
   });
 
-  console.log(response.data.results);
-  return response;
+  return response.data.results;
 };
 
 export default searchImages;
